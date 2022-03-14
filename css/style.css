@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 50px;
+  background-color: aliceblue;
+}
+.header-bloc-right {
+  justify-self: end;
+  margin-right: 10px;
+  align-self: center;
+}
+.header-bloc-right a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+  padding: 16.5px;
+}
+
+.header-bloc-right a:hover {
+  background-color: aqua;
+}
